@@ -1,0 +1,3 @@
+Nom de la base de donné: prisoners_offences
+
+Encodage: utf8_unicode_ci
