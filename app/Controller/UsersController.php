@@ -31,7 +31,7 @@ class UsersController extends AppController {
 
 
             if ($this->Auth->login()) {
-                if ($this->Session->read('Auth.User.active')) {
+                if (!$this->Session->read('Auth.User.active')) {
                     $this->Flash->error(__('You need to validated your email, if you want to have full access'));
                 }
                 return $this->redirect(array('controller' => 'prisoners', 'action' => 'index'));
