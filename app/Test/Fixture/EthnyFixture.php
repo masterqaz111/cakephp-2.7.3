@@ -26,9 +26,44 @@ class EthnyFixture extends CakeTestFixture {
  */
 	public $records = array(
 		array(
-			'id' => 1,
-			'sex_id' => 1,
-			'name' => 'Lorem ipsum dolor sit amet'
+			'id' => '1',
+			'sex_id' => '2',
+			'name' => 'Afro-Américaine'
+		),
+		array(
+			'id' => '2',
+			'sex_id' => '2',
+			'name' => 'Coréene'
+		),
+		array(
+			'id' => '3',
+			'sex_id' => '2',
+			'name' => 'Galloise'
+		),
+		array(
+			'id' => '4',
+			'sex_id' => '3',
+			'name' => 'Afro-Américain'
+		),
+		array(
+			'id' => '5',
+			'sex_id' => '3',
+			'name' => 'Coréen'
+		),
+		array(
+			'id' => '6',
+			'sex_id' => '3',
+			'name' => 'Gallois'
+		),
+		array(
+			'id' => '10',
+			'sex_id' => '2',
+			'name' => 'Arabe'
+		),
+		array(
+			'id' => '11',
+			'sex_id' => '3',
+			'name' => 'Arabe'
 		),
 	);
 

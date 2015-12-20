@@ -25,8 +25,16 @@ class SexFixture extends CakeTestFixture {
  */
 	public $records = array(
 		array(
-			'id' => 1,
-			'name' => 'Lorem ipsum dolor sit amet'
+			'id' => '1',
+			'name' => ' '
+		),
+		array(
+			'id' => '2',
+			'name' => 'Femme'
+		),
+		array(
+			'id' => '3',
+			'name' => 'Homme'
 		),
 	);
 

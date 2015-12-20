@@ -27,10 +27,64 @@ class NameFixture extends CakeTestFixture {
  */
 	public $records = array(
 		array(
-			'id' => 1,
-			'name' => 'Lorem ipsum dolor sit amet',
-			'created' => 'Lorem ipsum dolor sit amet',
-			'modified' => 'Lorem ipsum dolor sit amet'
+			'id' => '36',
+			'name' => 'Adam',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '37',
+			'name' => 'Alex',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '38',
+			'name' => 'Alexandre',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '39',
+			'name' => 'Alexis',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '40',
+			'name' => 'Anthony',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '41',
+			'name' => 'Antoine',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '42',
+			'name' => 'benjamin',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '43',
+			'name' => 'Cédric',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '44',
+			'name' => 'Charles',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
+		),
+		array(
+			'id' => '45',
+			'name' => 'Christopher',
+			'created' => '2015-11-09 17:50:05',
+			'modified' => '2015-11-09 17:50:05'
 		),
 	);
 

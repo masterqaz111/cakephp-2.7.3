@@ -33,16 +33,64 @@ class PrisonerFixture extends CakeTestFixture {
  */
 	public $records = array(
 		array(
-			'id' => 1,
-			'name' => 'Lorem ipsum dolor sit amet',
-			'number' => 1,
-			'details' => 'Lorem ipsum dolor sit amet',
-			'user_id' => 1,
-			'category_id' => 1,
+			'id' => '6',
+			'name' => 'Mathieu',
+			'number' => '3545342',
+			'details' => 'Solitaire',
+			'user_id' => '12',
+			'category_id' => '3',
+			'created' => '2015-10-07',
+			'modified' => '2015-10-07',
+			'filename' => null,
+			'ethny_id' => '1'
+		),
+		array(
+			'id' => '7',
+			'name' => 'Bob',
+			'number' => '48457345',
+			'details' => 'Être 2 gardiens lors de déplacement.',
+			'user_id' => '12',
+			'category_id' => '2',
+			'created' => '2015-10-07',
+			'modified' => '2015-10-07',
+			'filename' => null,
+			'ethny_id' => '1'
+		),
+		array(
+			'id' => '8',
+			'name' => 'sdfsdf',
+			'number' => '5',
+			'details' => 'dfsdfsdf',
+			'user_id' => '10',
+			'category_id' => '3',
+			'created' => '2015-11-06',
+			'modified' => '2015-11-07',
+			'filename' => 'uploads/Penguins.jpg',
+			'ethny_id' => '1'
+		),
+		array(
+			'id' => '9',
+			'name' => 'Anthony',
+			'number' => '2147483647',
+			'details' => 'dfsdfsdfsdfsdfds',
+			'user_id' => '10',
+			'category_id' => '2',
 			'created' => '2015-11-09',
-			'modified' => '2015-11-09',
-			'filename' => 'Lorem ipsum dolor sit amet',
-			'ethny_id' => 1
+			'modified' => '2015-11-10',
+			'filename' => 'uploads/Tulips.jpg',
+			'ethny_id' => '5'
+		),
+		array(
+			'id' => '10',
+			'name' => 'youri',
+			'number' => '456',
+			'details' => 'gros',
+			'user_id' => '10',
+			'category_id' => '2',
+			'created' => '2015-11-12',
+			'modified' => '2015-11-12',
+			'filename' => 'uploads/Penguins.jpg',
+			'ethny_id' => '4'
 		),
 	);
 
