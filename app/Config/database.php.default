@@ -67,7 +67,7 @@
  * A key/value array of driver specific connection options.
  */
 define('DEFAULT_DB', APP . DS . 'sqlite' . DS . 'default.sqlite');
-//define('TEST_DB', APP . DS . 'sqlite' . DS . 'test.sqlite');
+define('TEST_DB', APP . DS . 'sqlite' . DS . 'test.sqlite');
 class DATABASE_CONFIG {
 
     public $default = array(
@@ -77,12 +77,12 @@ class DATABASE_CONFIG {
         'prefix' => ''
     );
 
-   // public $test = array(
-      //  'datasource' => 'Database/Sqlite',
-       // 'persistent' => false,
-       // 'database' => TEST_DB,
-       // 'prefix' => ''
-   // );
+    public $test = array(
+        'datasource' => 'Database/Sqlite',
+        'persistent' => false,
+        'database' => TEST_DB,
+        'prefix' => ''
+    );
     
 	//public $default = array(
 		//'datasource' => 'Database/Mysql',
