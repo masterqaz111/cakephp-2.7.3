@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
         </button><!-- /.navbar-toggle -->
         <?php
-        echo $this->Html->Link(__("Home"), array(
+        echo $this->Html->Link(__("Prison Tp"), array(
             'controller' => 'prisoners',
             'action' => 'index'), array('class' => 'navbar-brand'));
         ?>
@@ -42,6 +42,9 @@
                 echo $this->Html->link(__("About "), array('controller' => 'pages', 'action' => 'display', 'about'));
                 ?></li>
 
+             <li><?php
+                echo $this->Html->link($this->Html->image("logo.svg",array('escape' => false, 'height' => '50px')),"http://".$_SERVER['HTTP_HOST'].$this->webroot."pages/about",array('escapeTitle' => false,'title' => 'Page About'));
+                ?></li>
             <li>
                 <?php
                 

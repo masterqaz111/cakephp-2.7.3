@@ -42,5 +42,20 @@ class PrisonerTest extends CakeTestCase {
 
 		parent::tearDown();
 	}
+        
+        /**
+ * testIsOwnedBy method
+ *
+ * @return void
+ */
+	public function testIsOwnedByTrue() {
+		$testIsOwnedBy = $this->Prisoner->IsOwnedBy(1,1);
+                $this->assertTrue($testIsOwnedBy);
+	}
+        
+        public function testIsOwnedByFalse() {
+		$testIsOwnedBy = $this->Prisoner->IsOwnedBy(1,8);
+                $this->assertFalse($testIsOwnedBy);
+	}
 
 }

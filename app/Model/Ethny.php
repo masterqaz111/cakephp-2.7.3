@@ -46,5 +46,12 @@ class Ethny extends AppModel {
 			'counterQuery' => ''
 		)
 	);
+        
+        public function getBrandsBySex($sex_id = null){
+            return $this->find('list', array(
+            'conditions' => array('Ethny.sex_id' => $sex_id),
+            'recursive' => -1
+        ));
+        }
 
 }

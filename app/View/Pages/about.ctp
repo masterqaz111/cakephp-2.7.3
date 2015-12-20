@@ -3,8 +3,12 @@
 <p>Mathieu Dubreuil</p><br>
 
 <p>420-267 MO Développer un site Web et une application pour Internet.<br>
-    Automne 2015, Collège Montmorency.
+    Automne 2015, Collège Montmorency.<br>
 
+<tr>
+    <td><strong><?php echo __('Logo de la compagnie'); ?></strong></td><br>
+   <td><strong><?php echo $this->Html->image('logo.svg',array('alt' => 'Logo de la compagnie','border' => '0')); ?></strong></td>
+</tr>
 <ul>
     <li>On doit tous dabord se connecter avec le user: admin et le password: admin</li>
     <li>Téléversement d'image à trouver dans prisonier dans les vue add, edit et view</li>

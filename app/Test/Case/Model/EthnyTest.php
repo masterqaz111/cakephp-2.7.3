@@ -42,5 +42,22 @@ class EthnyTest extends CakeTestCase {
 
 		parent::tearDown();
 	}
+        
+        /**
+ * testGetBrandsBySizes method
+ *
+ * @return void
+ */
+	public function testGetBrandsBySex() {
+		$result = $this->Ethny->getBrandsBySex(1);
+//            debug($result); die();
+        $expected = array(
+            (int) 2 => 'Afro-Américaine',
+            (int) 3 => 'Afro-Américain',
+            
+        );
+        $this->assertEquals($expected, $result);
+//		$this->markTestIncomplete('testGetSubcategoriesByCategory not implemented.');
+	}
 
 }

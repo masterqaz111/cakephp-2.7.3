@@ -35,5 +35,15 @@ class NameTest extends CakeTestCase {
 
 		parent::tearDown();
 	}
+        
+        /**
+ * testGetTitleNames method
+ *
+ * @return void
+ */
+	public function testGetTitleNames() {
+            $testGetTitleNames = $this->Name->getTitleNames("D");
+            $this->assertEqual($testGetTitleNames, array("1" => "David","2" => "Dylan"));
+	}
 
 }
